@@ -1,0 +1,62 @@
+
+
+.slider {
+	width: 100%;
+	margin: 0px auto;
+}
+
+.slick-slide {
+	margin: 0px;
+}
+
+.slick-slide img {
+	width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+	color:transparent !important;
+}
+
+
+.slick-slide {
+	transition: all ease-in-out .3s;
+	opacity: .2;
+}
+
+.slick-active {
+    opacity: 1 !important;
+}
+
+.slick-current {
+	opacity: 1;
+}
+
+.mycont{
+	width:11px;
+	height:11px;
+	background-color:red;
+}
+
+
+.slick-dots li button:before {
+    opacity: 0.5 !important;
+    content: url(../../img/homepage/simple-elips.svg) !important;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 1 !important;
+}
+
+.slick-dots li.slick-active button:before{
+  content: url(../../img/homepage/circle.svg) !important;
+}
+
+.fetured-cp-id .slick-dots li button:before {
+    opacity: 1 !important;
+	content: url(../../img/homepage/simple-elips-blue.svg) !important;
+}
+
+.fetured-cp-id .slick-dots li.slick-active button:before{
+	content: url(../../img/homepage/circle-blue.svg) !important;
+}

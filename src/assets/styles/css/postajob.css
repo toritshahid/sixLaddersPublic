@@ -1,0 +1,352 @@
+/*POST A JOB BLOCK ONE*/
+/*===============================================*/
+/*===================================================*/
+.post-a-job-block-one{
+	display: flex;
+	width: 100%;
+	background-color: var(--ice);
+	flex-wrap: wrap;
+	position: relative;
+	padding-top: 35px;
+}
+
+.overlay-post-j-b-o{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top:0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	display: none;
+}
+
+.pc-post-b-o-view{
+	display: none;
+	width: 46%;
+}
+
+.mb-post-b-o-view{
+	display: block;
+}
+
+.post-aj-left-b-one{
+	display: block;
+	width: 100%;
+	height: 303px;
+	order: 2;
+}
+
+.post-aj-right-b-one{
+	display: block;
+	width: 90%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 54%;
+	order: 1;
+	margin: 0px auto;
+	border-radius: 12px;
+}
+
+.flex-item-post-a-j-b-o-ch{
+	display: flex;
+	padding-bottom: 7px;
+}
+
+.flex-item-post-a-j-b-o-ch img{
+	position: relative;
+	margin-top: -10px;
+	padding-right: 8px;
+}
+
+.post-a-header-b-o{
+	font-family: 'basier_circlebold';
+	font-size: 32px;
+	color: var(--slate);
+	padding: 20px 0px 10px 0px;
+}
+
+.description-pst-ap-b-o{
+	display: block;
+	font-family: 'basier_circleregular';
+	font-size: 14px;
+	color: var(--battleship-grey);
+	padding: 0px 0px 10px 0px;
+}
+
+.buttonpost-aj-b-o{
+	width: 190px;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	color: white;
+	background-color: var(--algae);
+	border-radius: 22px;
+	font-family: 'basier_circlesemibold';
+	font-size: 14px;
+	margin-top: 15px;
+	transition: all.5s ease-in-out;
+}
+
+.buttonpost-aj-b-o:hover{
+	width: 200px;
+	letter-spacing: 0.5px;
+	color: var(--slate);
+}
+
+/*POST A JOB BLOCK TWO*/
+/*===============================================*/
+/*===================================================*/
+
+.post-a-j-or{
+	display: block;
+	margin: 0px auto;
+	position: relative;
+	width: 60px;
+	height: 40px;
+}
+
+.post-j-real-or{
+	display: block;
+	position: absolute;
+	width: 60px;
+	height: 32px;
+	border-radius: 6px;
+	box-shadow: 0 11px 55px 10px rgba(0, 0, 0, 0.07), 0 13px 18px -8px rgba(0, 0, 0, 0.15);
+	background-color: var(--white);
+	left: 50%;
+	top: 0px;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	color:#8f9197;
+	font-size: 14px;
+	font-family: 'basier_circlesemibold';
+	text-align: center;
+	line-height: 32px;
+	text-transform: uppercase;
+}
+
+.post-a-job-b-t-header{
+	text-align: center;
+	color: var(--slate);
+	font-size: 32px;
+	font-family: 'basier_circlebold';
+	padding: 10px 0px ;
+}
+
+.post-a-job-b-t-description{
+	text-align: center;
+	color: var(--battleship-grey);
+	font-size: 14px;
+	font-family: 'basier_circlemediumitalic';
+	padding: 0px 0px 50px 0px;
+}
+
+.post-ajob-flex-b-t{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	padding-bottom: 50px;
+	border-bottom: 1px solid rgb(69, 76, 103, 0.2);
+}
+
+.left-pst-b-t-child{
+	display: block;
+	width: 100%;
+}
+
+.right-pst-b-t-child{
+	display: block;
+	width: 100%;
+}
+
+.post-aj-b-t-button{
+	width: 190px;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	color: white;
+	background-color: var(--algae);
+	border-radius: 22px;
+	font-family: 'basier_circlesemibold';
+	font-size: 14px;
+	margin: 15px auto 0px auto;
+	transition: all.5s ease-in-out;
+}
+
+.post-aj-b-t-button:hover{
+	width: 200px;
+	letter-spacing: 0.5px;
+	color: var(--slate);
+}
+
+.post-aj-flex-con-second{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	padding-top: 49px;
+	padding-bottom: 50px;
+}
+
+.left-ch-post-aj-second{
+	width: 100%;
+	order: 2;
+}
+
+.right-ch-post-aj-second{
+	width: 100%;
+	order: 1;
+	padding-bottom: 25px;
+}
+
+.right-ch-post-aj-second img{
+	width: 100%;
+}
+
+
+.left-heder-chi-fl-t{
+	display: block;
+	font-family: 'basier_circleregular';
+	font-size: 14px;
+	color: var(--battleship-grey);
+	padding-bottom: 20px;
+}
+
+.in-post-j-b{
+	color: inherit;
+}
+
+.in-post-j-b:hover{
+	color: var(--algae);
+}
+
+/*POST A JOB BLOCK TWO*/
+/*===============================================*/
+/*===================================================*/
+.post-a-job-block-three{
+	width: 100%;
+	display: block;
+	background-color: #03343b;
+	min-height: 20px;
+	padding: 50px 0px;
+
+}
+
+.flex-container-post-j-b-th{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.child-item-post-a-j-b-th{
+	display: flex;
+	width: 100%;
+	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
+	background-color: var(--white);
+	border-radius: 10px;
+	padding: 20px 0px;
+	margin-bottom: 25px;
+}
+
+.child-item-post-a-j-b-th img{
+	padding-left: 20px;
+}
+
+.lst-post-j-text{
+	display: block;
+	color: var(--slate);
+	padding-left: 16px;
+	padding-top: 11px;
+	font-size: 16px;
+	font-family: 'basier_circlemedium';
+}
+
+.post-aj-b-t-button-last-post{
+	width: 190px;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	color: white;
+	background-color: var(--algae);
+	border-radius: 22px;
+	font-family: 'basier_circlesemibold';
+	font-size: 14px;
+	margin: 30px auto 0px auto;
+	transition: all.5s ease-in-out;
+}
+
+.post-aj-b-t-button-last-post:hover{
+	width: 200px;
+	letter-spacing: 0.5px;
+	color: var(--slate);
+}
+@media(min-width: 940px){
+
+	.pc-post-b-o-view{
+		display: block;
+		width: 46%;
+	}
+	
+	.mb-post-b-o-view{
+		display: none;
+	}
+
+	.post-aj-left-b-one{
+		width: 50%;
+		order: 1;
+	}
+	
+	.post-aj-right-b-one{
+		width: 50%;
+		padding-top: 14%;
+		order: 2;
+		border-radius: 0px;
+	}
+
+	.post-a-job-block-one{
+		padding-top: 0px;
+	}
+
+	.overlay-post-j-b-o{
+		display: block;
+	}
+
+	.post-a-header-b-o{
+		padding: 50px 0px 10px 0px;
+	}
+
+	.buttonpost-aj-b-o{
+		margin-top: 10px;
+	}
+
+	.left-pst-b-t-child{
+		width: 70%;
+	}
+	
+	.right-pst-b-t-child{
+		width: 30%;
+	}
+	
+	.post-aj-b-t-button{
+		margin: 15px 0px 0px auto;
+	}
+
+	.left-ch-post-aj-second{
+		width: 40%;
+		order: 1;
+	}
+	
+	.right-ch-post-aj-second{
+		width: 57%;
+		margin-left: 3%;
+		order: 2;padding-bottom: 0px;
+	}
+
+	.child-item-post-a-j-b-th{
+		width: 23%;
+		margin-bottom: 0px;
+	}
+}

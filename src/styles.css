@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('assets/styles/css/homepage.css');
+@import url('assets/styles/css/layout.css');
+@import url('assets/styles/css/pagination.css');
+@import url('assets/styles/css/blog.css');
+@import url('assets/styles/css/featuredcompanies.css');
+@import url('assets/styles/css/careercoaching.css');
+@import url('assets/styles/css/slider.css');
+@import url('assets/carousel/slick-1.8.1/slick/slick.css');
+@import url('assets/carousel/slick-1.8.1/slick/slick-theme.css');

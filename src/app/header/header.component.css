@@ -1,0 +1,10 @@
+.spacer {
+  flex: 1 1 auto;
+}
+.button-row {
+  display: table-cell;
+}
+.light-button {
+  font-size: 110%;
+  border: 2px solid rgb(14, 236, 62) !important;
+}

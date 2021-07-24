@@ -1,0 +1,388 @@
+/* CAREER COACHING BLOCK ONE*/
+.career-coach-block-one{
+	display: block;
+	width: 100%;
+	margin: 0px auto;
+	background-color: var(--algae);
+	min-height: 40px;
+	padding-bottom: 83px;
+}
+
+.flex-car-co-container{
+	display: block;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.left-side-block-one-child-carr{
+	display: block;
+	width: 100%;
+}
+
+.right-side-block-one-child-carr{
+	display: block;
+	width: 100%;
+}
+
+.car-co-header-main{
+	text-align: center;
+	padding: 60px 0px 10px 0px;
+}
+
+
+.car-co-description-block-one{
+	display: block;
+	font-family: 'basier_circleregular';
+	font-size: 17px;
+	line-height: 22px;
+	letter-spacing: normal;
+	color: var(--white);
+	width: 100%;
+	text-align: center;
+}
+
+.right-par-car-co{
+	display: block;
+	font-family: 'basier_circleregular';
+	font-size: 14px;
+	letter-spacing: normal;
+	color: var(--white);
+	padding: 60px 0px 10px 0px;
+	text-align: center;
+}
+
+.item-carousel-body-car-block{
+	display: block !important;
+	background-color: white;
+	width: 100%;
+	border-radius: 10px;
+}
+
+.left-side-car-co-carous{
+	display: block;
+	min-width: max-content;
+	padding: 30px 30px 20px 30px;
+}
+
+.left-side-car-co-carous .image-container{
+	display: block;
+	position: relative;
+	width: 50%;
+	padding-top: 48%;
+	border-radius: 50%;
+	margin: 0px auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+  background-image: url('../../img/homepage/example-blog.png');
+}
+
+.right-side-car-co-carous{
+	display: block;
+}
+
+.car-co-main-text{
+	display: block;
+	font-family: 'basier_circleregular';
+	color: #454d66;
+	font-size: 14px;
+	padding: 0px  0px ;
+	width: 90%;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.car-co-name-right{
+	color: var(--algae);
+	font-size: 16px;
+	font-family: 'basier_circlebold';
+	text-align: center;
+}
+
+.car-co-right-bot{
+	color: var(--battleship-grey);
+	font-size: 12px;
+	font-family: 'basier_circlemediumitalic';
+	padding: 4px 0px 30px 0px;
+	text-align: center;
+}
+
+
+/*CARRER COACHING LOCK TWO*/
+/*===================================================*/
+.car-co-services-header{
+	text-align: center;
+	padding: 50px 0px 20px 0px;
+}
+
+
+.flex-car-co-block-tw-container{
+	display: block;
+	width: 100%;
+	background-color: var(--ice);
+	border-radius: 10px;
+	margin-bottom: 20px;
+	min-height: 180px;
+	padding-bottom: 20px;
+}
+
+.left-car-co-b-t{
+	display:block;
+	width: 100%;
+}
+
+.left-car-co-b-t img{
+	display:block;
+	width: 100px;
+	margin: 0px auto;
+	padding: 0px;
+	padding: 32px 0px;
+}
+
+.center-car-co-b-t{
+	display:block;
+	width: 90%;
+	margin: 0px auto;
+}
+
+.right-car-co-b-t{
+	display:block;
+	width: 100%;
+}
+
+.header-car-co-b-t{
+	color: var(--slate);
+	font-size: 22px;
+	font-family: 'basier_circlebold';
+	text-align: center;
+	padding: 5px 0px 10px 0px;
+}
+
+.description-car-co-b-t{
+	color: var(--battleship-grey);
+	font-size: 14px;
+	font-family: 'basier_circleregular';
+	text-align: center;
+	padding: 0px ;
+}
+
+
+.car-co-bt-button-cont{
+	display: block;
+	margin: 20px auto;
+	font-family: 'basier_circlesemibold';
+	font-size: 14px;
+	width: 190px;
+	height: 44px;
+	line-height: 44px;
+	background-color: var(--algae);
+	border-radius: 22px;
+	text-align: center;
+	color: white;
+	transition: all 0.5s ease-in-out;
+}
+
+.car-co-bt-button-cont:hover{
+	width: 200px;
+	letter-spacing: 0.5px;
+	color: var(--slate);
+}
+
+
+/* CAREER COACHING BLOCK THREE*/
+/*=================================*/
+.career-coaching-block-three{
+	display: block;
+	background-color: var(--ice);
+	width: 100%;
+	min-height: 40px;
+	padding-bottom: 50px;
+}
+
+.car-co-how-header{
+	padding: 50px 0px 10px 0px;
+	text-align: center;
+}
+
+.car-co-how-description{
+	color: var(--battleship-grey);
+	font-size: 14px;
+	font-family: 'basier_circleregular';
+	display: block;
+	margin: 0px auto;
+	width: 95%;
+	text-align: center;
+	padding-bottom: 35px;
+}
+
+.flex-items-car-co-how{
+	width: 100%;
+	margin: 0px auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.car-co-how-item{
+	display: block;
+	width: 100%;
+	padding-bottom: 25px;
+}
+
+.car-co-how-item-arrow{
+	display: none;
+	background-color: black;
+	width: 2.666%;
+	height: 57px;
+	margin-top: 11px;
+}
+
+.car-co-how-item img{
+	display: block;
+	min-height: 81px;
+	min-width: 79px;
+	margin: 0px auto;
+}
+
+.car-co-item-how-name{
+	color: var(--slate);
+	font-size: 20px;
+	font-family: 'basier_circlebold';
+	text-align: center;
+	padding: 30px 0px 10px 0px;
+}
+
+.car-co-how-item-description{
+	color: var(--battleship-grey);
+	font-size: 14px;
+	font-family: 'basier_circleregular';
+	text-align: center;
+}
+@media(min-width: 680px){
+
+}
+
+@media(min-width: 940px){
+
+
+
+
+	.right-par-car-co{
+		text-align: left;
+	}
+
+	.car-co-header-main{
+		text-align: left;
+	}
+
+	.car-co-description-block-one{
+		width: 80%;
+		text-align: left;
+	}
+
+	.flex-car-co-container{
+		display: flex;
+	}
+
+	.left-side-block-one-child-carr{
+		width: 53%;
+	}
+
+	.right-side-block-one-child-carr{
+		width: 47%;
+	}
+
+	.item-carousel-body-car-block{
+		display: flex !important;
+    background-image: url('../../img/homepage/example-blog.png');
+	}
+
+	.left-side-car-co-carous{
+		padding: 42px 30px 41px 30px;
+	}
+
+	.left-side-car-co-carous .image-container{
+		width: 65px;
+		height: 65px;
+		padding-top: 0px;
+	}
+
+	.right-side-car-co-carous{
+		display: block;
+		width: auto;
+	}
+
+	.car-co-main-text{
+		padding: 20px  0px ;
+		margin: 0px ;
+		text-align: left;
+	}
+
+	.car-co-name-right{
+		text-align: center;
+		text-align: left;
+	}
+
+	.car-co-right-bot{
+		text-align: left;
+		padding: 4px 0px 20px 0px;
+	}
+
+	.left-side-car-co-carous{
+		padding: 42px 30px 41px 30px;
+	}
+
+
+	.flex-car-co-block-tw-container{
+		display: flex;
+		flex-wrap: wrap;
+		padding-bottom: 0px;
+	}
+
+	.left-car-co-b-t img{
+		padding: 32px 0px 31px 0px;
+	}
+
+	.left-car-co-b-t{
+		width: 18%;
+	}
+
+	.center-car-co-b-t{
+		width: 50%;
+		margin: 0px;
+	}
+
+	.header-car-co-b-t{
+		text-align: left;
+		padding: 55px 0px 10px 0px;
+	}
+
+	.description-car-co-b-t{
+		text-align: left;
+		padding: 0px ;
+	}
+
+	.right-car-co-b-t{
+		display:block;
+		width: 32%;
+	}
+
+	.car-co-bt-button-cont{
+		margin: 68px 44px 0px auto;
+	}
+
+	/*FOUR BLOCK*/
+	.car-co-how-item-arrow{
+		display: block;
+	}
+
+	.car-co-how-item{
+		width: 23%;
+		padding-bottom: 0px;
+	}
+
+	.car-co-how-description{
+		width: 75%;
+	}
+}
+
+
