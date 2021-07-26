@@ -25,7 +25,6 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-  background-image: url('../../img/homepage/example-blog.png');
 }
 
 .company-ft-b-o-name{
@@ -179,7 +178,6 @@
 	padding-top: 48%;
 	border-radius: 10px;
 	background-repeat: no-repeat;
-  background-image: url('../../img/homepage/example-blog.png');
 }
 
 .right-ftp-items-cont-bt{
@@ -198,7 +196,6 @@
 	height: 0px;
 	padding-top: 68%;
 	margin-bottom: 7%;
-  background-image: url('../../img/homepage/example-blog.png');
 }
 
 .second-image-ftp-gal{
@@ -209,7 +206,6 @@
 	background-repeat: no-repeat;
 	height: 0px;
 	padding-top: 60%;
-  background-image: url('../../img/homepage/example-blog.png');
 }
 
 .third-image-ftp-gal{
@@ -221,7 +217,6 @@
 	height: 0px;
 	padding-top: 60%;
 	position: relative;
-  background-image: url('../../img/homepage/example-blog.png');
 }
 
 .overlay-container{
@@ -298,7 +293,6 @@
 	border-radius: 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
-  background-image: url('../../img/homepage/example-blog.png');
 }
 
 .car-co-founder-name{
@@ -372,7 +366,6 @@
 	background-repeat: no-repeat;
 	height: 38px;
 	border-radius: 4.32px;
-  background-image: url('../../img/homepage/example-blog.png');
 }
 
 .job-price-ftp-c{
@@ -455,7 +448,6 @@
 	border-radius: 10px;
 	padding-top: 45%;
 	position: relative;
-  background-image: url('../../img/homepage/example-blog.png');
 }
 
 .overlay-description-bt-ft{
@@ -578,7 +570,6 @@
 	background-position: center;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
-  background-image: url('../../img/homepage/example-blog.png');
 }
 
 .text-info-container-ftp-three{
@@ -640,7 +631,6 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	border-radius: 50%;
-  background-image: url('../../img/homepage/example-blog.png');
 }
 
 .full-name-ftp-p{
@@ -797,7 +787,7 @@
 
 	/* .image-container-cr-ftp{
 		margin: 0px;
-    background-image: url('../../img/homepage/example-blog.png');
+
 	} */
 
 	.car-co-founder-name{

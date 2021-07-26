@@ -13,6 +13,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { FooterComponent } from './footer/footer.component';
 import { CarrerCoachingComponent } from './carrer-coaching/carrer-coaching.component';
 import { FeaturedCompaniesComponent } from './featured-companies/featured-companies.component';
+import { BlogComponent } from './blog/blog.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FeaturedCompaniesComponent } from './featured-companies/featured-compan
     HeaderComponent,
     FooterComponent,
     CarrerCoachingComponent,
-    FeaturedCompaniesComponent
+    FeaturedCompaniesComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,

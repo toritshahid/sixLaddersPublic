@@ -1,6 +1,6 @@
 /* FONTS CONNECTION*/
 /*===============*/
-/* @font-face {
+@font-face {
     font-family: 'basier_circlebold_italic';
     src: url('../fonts/Basier_Complete_Webfont/Basier_Circle_Webfont/Basier-Circle-bold-webfont/basiercircle-bold-webfont.eot');
     src: url('../fonts/Basier_Complete_Webfont/Basier_Circle_Webfont/Basier-Circle-bold-webfont/basiercircle-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
@@ -80,7 +80,7 @@
 @font-face {
     font-family: 'inter-bold';
     src: url('../fonts/inter/static/Inter-Bold.ttf') format('truetype');
-} */
+}
 /*-----------------------*/
 /*END - FONTS CONNECTION */
 

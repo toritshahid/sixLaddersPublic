@@ -74,7 +74,6 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-  background-image: url('../../img/homepage/example-blog.png');
 }
 
 .right-side-car-co-carous{
@@ -293,7 +292,6 @@
 
 	.item-carousel-body-car-block{
 		display: flex !important;
-    background-image: url('../../img/homepage/example-blog.png');
 	}
 
 	.left-side-car-co-carous{
