@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { BlogComponent } from './blog/blog.component';
-import { CarrerCoachingComponent } from './carrer-coaching/carrer-coaching.component';
-import { FeaturedCompaniesComponent } from './featured-companies/featured-companies.component';
-import { HomeComponent } from './home/home.component';
+import { BlogComponent } from './main_pages/blog/blog.component';
+import { CarrerCoachingComponent } from './main_pages/carrer-coaching/carrer-coaching.component';
+import { FeaturedCompaniesComponent } from './main_pages/featured-companies/featured-companies.component';
+import { HomeComponent } from './main_pages/home/home.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
