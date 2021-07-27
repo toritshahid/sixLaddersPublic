@@ -4,12 +4,13 @@ import { BlogComponent } from './main_pages/blog/blog.component';
 import { CarrerCoachingComponent } from './main_pages/carrer-coaching/carrer-coaching.component';
 import { FeaturedCompaniesComponent } from './main_pages/featured-companies/featured-companies.component';
 import { HomeComponent } from './main_pages/home/home.component';
-
+import { LoginComponent } from './main_pages/login/login.component';
 const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'careerCoaching', component: CarrerCoachingComponent},
   {path: 'featuredCompanies', component: FeaturedCompaniesComponent},
-  {path: 'blogs', component: BlogComponent}
+  {path: 'blogs', component: BlogComponent},
+  {path: 'login', component: LoginComponent}
 ];
 
 @NgModule({

@@ -1,7 +1,7 @@
-
-      $(document).on('ready', function() {
-         /*Carousel iptions*/
-         $('.single-item').slick({
+      var $jq = jQuery.noConflict();
+	  $jq(document).on('ready', function() {
+         /*Carousel options*/
+         $jq('.single-item').slick({
             dots: true,
             infinite: false,
             speed: 300,
@@ -9,30 +9,30 @@
             slidesToScroll: 1,
             });
             /*Carousel left scroll button click*/
-            $('.left-car-hmp').click(function(){
-            $('.slider').slick('slickPrev');
-            $leftbutt = $('.home-page-block-fifth');
-               if(($(".slick-prev").hasClass("slick-disabled"))){
+            $jq('.left-car-hmp').click(function(){
+            $jq('.slider').slick('slickPrev');
+            $leftbutt = $jq('.home-page-block-fifth');
+               if(($jq(".slick-prev").hasClass("slick-disabled"))){
                   $leftbutt.addClass("clicked-arr-left");
                }else{
                   $leftbutt.removeClass("clicked-arr-left");
                };
-               if(($(".slick-next").hasClass("slick-disabled"))){
+               if(($jq(".slick-next").hasClass("slick-disabled"))){
                   $leftbutt.addClass("clicked-arr-right");
                }else{
                   $leftbutt.removeClass("clicked-arr-right");
                };
             })
              /*Carousel right scroll button click*/
-            $('.right-car-hmp').click(function(){
-            $('.slider').slick('slickNext');
-            $leftbutt = $('.home-page-block-fifth');
-               if(($(".slick-prev").hasClass("slick-disabled"))){
+            $jq('.right-car-hmp').click(function(){
+            $jq('.slider').slick('slickNext');
+            $leftbutt = $jq('.home-page-block-fifth');
+               if(($jq(".slick-prev").hasClass("slick-disabled"))){
                   $leftbutt.addClass("clicked-arr-left");
                }else{
                   $leftbutt.removeClass("clicked-arr-left");
                };
-               if(($(".slick-next").hasClass("slick-disabled"))){
+               if(($jq(".slick-next").hasClass("slick-disabled"))){
                   $leftbutt.addClass("clicked-arr-right");
                }else{
                   $leftbutt.removeClass("clicked-arr-right");

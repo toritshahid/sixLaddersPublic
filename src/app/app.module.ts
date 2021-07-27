@@ -14,6 +14,7 @@ import { FooterComponent } from './main_pages/footer/footer.component';
 import { CarrerCoachingComponent } from './main_pages/carrer-coaching/carrer-coaching.component';
 import { FeaturedCompaniesComponent } from './main_pages/featured-companies/featured-companies.component';
 import { BlogComponent } from './main_pages/blog/blog.component';
+import { LoginComponent } from './main_pages/login/login.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { BlogComponent } from './main_pages/blog/blog.component';
     FooterComponent,
     CarrerCoachingComponent,
     FeaturedCompaniesComponent,
-    BlogComponent
+    BlogComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
