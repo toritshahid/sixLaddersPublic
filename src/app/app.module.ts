@@ -15,6 +15,9 @@ import { CarrerCoachingComponent } from './main_pages/carrer-coaching/carrer-coa
 import { FeaturedCompaniesComponent } from './main_pages/featured-companies/featured-companies.component';
 import { BlogComponent } from './main_pages/blog/blog.component';
 import { LoginComponent } from './main_pages/login/login.component';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { PostAJobComponent } from './main_pages/post-ajob/post-ajob.component';
+
 
 @NgModule({
   declarations: [
@@ -25,7 +28,8 @@ import { LoginComponent } from './main_pages/login/login.component';
     CarrerCoachingComponent,
     FeaturedCompaniesComponent,
     BlogComponent,
-    LoginComponent
+    LoginComponent,
+    PostAJobComponent
   ],
   imports: [
     BrowserModule,
@@ -36,6 +40,7 @@ import { LoginComponent } from './main_pages/login/login.component';
     MatInputModule,
     MatIconModule,
     MatButtonModule,
+    MatSlideToggleModule
   ],
   providers: [],
   bootstrap: [AppComponent]

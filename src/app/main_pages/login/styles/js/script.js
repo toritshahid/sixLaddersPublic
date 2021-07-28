@@ -4,7 +4,7 @@
 	/*------------------------------------
 		Dropdown Opens On Hover
 	--------------------------------------*/
-	document.addEventListener("DOMContentLoaded", function(){
+  document.addEventListener("DOMContentLoaded", function(){
 		if (window.innerWidth > 992) {
 			document.querySelectorAll('.navbar .nav-item').forEach(function(everyitem){
 				everyitem.addEventListener('mouseover', function(e){
@@ -31,7 +31,7 @@
 	--------------------------------------*/
 
 
-	
+
 
 	/*------------------------------------
 		Fix Header
@@ -52,7 +52,7 @@
 		Fix Header
 	--------------------------------------*/
 
-	
+
 
 
 })(jQuery);
