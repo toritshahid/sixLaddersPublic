@@ -4,7 +4,7 @@
 	/*------------------------------------
 		Dropdown Opens On Hover
 	--------------------------------------*/
-  document.addEventListener("DOMContentLoaded", function(){
+	document.addEventListener("DOMContentLoaded", function(){
 		if (window.innerWidth > 992) {
 			document.querySelectorAll('.navbar .nav-item').forEach(function(everyitem){
 				everyitem.addEventListener('mouseover', function(e){
@@ -31,7 +31,7 @@
 	--------------------------------------*/
 
 
-
+	
 
 	/*------------------------------------
 		Fix Header
@@ -53,6 +53,47 @@
 	--------------------------------------*/
 
 
+	/*-----------------------------------------
+		Career Coaching Page Testimonial Slider
+	-------------------------------------------*/
+    if ($(".testimony--swiper .swiper-container").length > 0) {
+		let offerSwiper = new Swiper('.testimony--swiper .swiper-container', {
+			slidesPerView: 1,
+			loop: true,
+			spaceBetween: 30,
+			autoplay: {
+				delay: 1800,
+			},
+			pagination: {
+	          el: ".testimony--pagination",
+	          clickable: true,
+	        },
+			a11y: false
+		})
+	}
+	if ($(".testimony-v2-swiper .swiper-container").length > 0) {
+		let offerSwiper = new Swiper('.testimony-v2-swiper .swiper-container', {
+			slidesPerView: 1,
+			loop: true,
+			spaceBetween: 30,
+			autoplay: {
+				delay: 1800,
+			},
+			pagination: {
+	          el: ".testimony-v2--pagination",
+	          clickable: true,
+	        },
+	        navigation: {
+				nextEl: '.testv2-right',
+				prevEl: '.testv2-left',
+			},
+			a11y: false
+		})
+	}
+    /*-----------------------------------------
+		Career Coaching Page Testimonial Slider
+	-------------------------------------------*/
+	
 
 
 })(jQuery);

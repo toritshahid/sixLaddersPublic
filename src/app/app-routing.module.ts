@@ -6,13 +6,15 @@ import { FeaturedCompaniesComponent } from './main_pages/featured-companies/feat
 import { HomeComponent } from './main_pages/home/home.component';
 import { LoginComponent } from './main_pages/login/login.component';
 import { PostAJobComponent } from './main_pages/post-ajob/post-ajob.component';
+import { AskUsAnythingComponent } from './main_pages/ask-us-anything/ask-us-anything.component';
 const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'careerCoaching', component: CarrerCoachingComponent},
   {path: 'featuredCompanies', component: FeaturedCompaniesComponent},
   {path: 'blogs', component: BlogComponent},
   {path: 'login', component: LoginComponent},
-  {path: 'postAjob', component: PostAJobComponent}
+  {path: 'postAjob', component: PostAJobComponent},
+  {path: 'AskUsAnything', component: AskUsAnythingComponent}
 ];
 
 @NgModule({
