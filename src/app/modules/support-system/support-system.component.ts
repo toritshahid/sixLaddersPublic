@@ -9,7 +9,7 @@ import { ScriptService } from 'src/app/shared/scripts.service';
 export class SupportSystemComponent implements OnInit {
 
   constructor(private script: ScriptService) {
-    this.script.load('JQuery','main', 'carousel', 'carouselSlick').then(data => {
+    this.script.load('JQuery','main', 'carousel', 'carouselSlick', 'JQuery1', 'main', 'bootstrap','script', 'swiper', 'wow').then(data => {
       console.log('script loaded ', data);
   }).catch(error => console.log(error));
   }
