@@ -3,6 +3,9 @@ import { CommonModule } from '@angular/common';
 
 import { DashboardRoutingModule } from './dashboard-routing.module';
 import { DashboardComponent } from './dashboard.component';
+import { HeaderModule } from '../header/header.module';
+import { FooterModule } from '../footer/footer.module';
+import { ScriptService } from 'src/app/shared/scripts.service';
 
 
 @NgModule({
@@ -11,7 +14,10 @@ import { DashboardComponent } from './dashboard.component';
   ],
   imports: [
     CommonModule,
-    DashboardRoutingModule
-  ]
+    DashboardRoutingModule,
+    HeaderModule,
+    FooterModule
+  ],
+  providers: [ScriptService]
 })
 export class DashboardModule { }
