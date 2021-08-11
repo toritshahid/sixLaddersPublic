@@ -16,6 +16,7 @@ const routes: Routes = [
   { path: 'supportSystem', loadChildren: () => import('./modules/support-system/support-system.module').then(m => m.SupportSystemModule) },
   { path: 'signupCandidate', loadChildren: () => import('./modules/signup-candidate/signup-candidate.module').then(m => m.SignupCandidateModule) },
   { path: 'dashboard', loadChildren: () => import('./modules/dashboard/dashboard.module').then(m => m.DashboardModule) },
+  { path: 'careerLadder', loadChildren: () => import('./modules/career-ladder/career-ladder.module').then(m => m.CareerLadderModule) },
 ];
 
 @NgModule({
