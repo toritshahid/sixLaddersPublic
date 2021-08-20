@@ -3,8 +3,8 @@ import { CommonModule } from '@angular/common';
 
 import { InterviewTrainingRoutingModule } from './interview-training-routing.module';
 import { InterviewTrainingComponent } from './interview-training.component';
-import { HeaderModule } from '../header/header.module';
-import { FooterModule } from '../footer/footer.module';
+import { HeaderModule } from '../../header/header.module';
+import { FooterModule } from '../../footer/footer.module';
 import { ScriptService } from 'src/app/shared/scripts.service';
 
 

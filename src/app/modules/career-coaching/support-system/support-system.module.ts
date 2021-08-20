@@ -3,8 +3,8 @@ import { CommonModule } from '@angular/common';
 
 import { SupportSystemRoutingModule } from './support-system-routing.module';
 import { SupportSystemComponent } from './support-system.component';
-import { HeaderModule } from '../header/header.module';
-import { FooterModule } from '../footer/footer.module';
+import { HeaderModule } from '../../header/header.module';
+import { FooterModule } from '../../footer/footer.module';
 import { ScriptService } from 'src/app/shared/scripts.service';
 
 
