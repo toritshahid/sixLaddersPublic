@@ -1,4 +1,3 @@
-
 const menuBtn = document.querySelector("#toggle-mobile-burger"); // Burger menu
 const menucont = document.querySelector('.main-menu-container'); // Menu container
 const target = document.body; // Body
@@ -12,4 +11,4 @@ const openMenu = (e) => {
     menucont.classList.add("search-hided")
   };
 };
-// menuBtn.addEventListener("click", openMenu); //Burger on click
+menuBtn.addEventListener("click", openMenu); //Burger on click

@@ -9,7 +9,7 @@ import { ScriptService } from 'src/app/shared/scripts.service';
 export class JobSearchStrategyComponent implements OnInit {
 
   constructor(private script: ScriptService) {
-    this.script.load('JQuery','bootstrap','main', 'swiper', 'carousel', 'carouselSlick').then(data => {
+    this.script.load('JQuery','bootstrap', 'carousel', 'carouselSlick').then(data => {
       console.log('script loaded ', data);
   }).catch(error => console.log(error));
   }
