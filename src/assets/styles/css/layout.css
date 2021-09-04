@@ -93,8 +93,15 @@ html {
 body{
 	margin: 0px !important;
 	padding: 0px !important;
+  background-color: white;
+  color: black;
 	overflow-x: hidden;
 }
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
 
 p{
 	padding: 0px;
@@ -182,7 +189,6 @@ input[type="text"], input[type="password"], textarea, select {
 	margin: 0px;
 	padding: 0px;
 }
-
 /*CONTENT FRAME - WIDTH*/
 .content-container{
 	display: block;

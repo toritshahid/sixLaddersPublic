@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('assets/styles/css/homepage.css');
 @import url('assets/styles/css/layout.css');
+@import url('assets/styles/css/theme.css');
 @import url('assets/styles/css/pagination.css');
 @import url('assets/styles/css/blog.css');
 @import url('assets/styles/css/featuredcompanies.css');

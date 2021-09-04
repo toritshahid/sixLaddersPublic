@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgxSpinnerService } from "ngx-spinner";
+import { ThemeService } from './_services/theme.service';
 
 @Component({
   selector: 'app-root',
@@ -8,14 +9,9 @@ import { NgxSpinnerService } from "ngx-spinner";
 })
 export class AppComponent implements OnInit {
   title = 'sixLaders';
-  constructor(private spinner: NgxSpinnerService) {}
-  ngOnInit() {
-    /** spinner starts on init */
-    this.spinner.show();
-
-    setTimeout(() => {
-      /** spinner ends after 5 seconds */
-      this.spinner.hide();
-    }, 2000);
+  constructor(private spinner: NgxSpinnerService, private service: ThemeService) {
   }
+  ngOnInit() {
+    this.service.selectTheme();
+}
 }

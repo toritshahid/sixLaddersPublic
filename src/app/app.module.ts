@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { ThemeService } from './_services/theme.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,6 +24,7 @@ import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [
+    ThemeService
   ],
   bootstrap: [AppComponent]
 })

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ThemeService } from 'src/app/_services/theme.service';
 
 @Component({
   selector: 'app-blog',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BlogComponent implements OnInit {
 
-  constructor() { }
+  constructor(private service: ThemeService) { }
 
   ngOnInit(): void {
+    this.service.selectTheme();
   }
 
 }
