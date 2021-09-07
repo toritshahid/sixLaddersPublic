@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { ScriptService } from 'src/app/shared/scripts.service';
-import { ThemeService } from 'src/app/_services/theme.service';
 
 @Component({
   selector: 'app-interview-training',
@@ -9,7 +8,7 @@ import { ThemeService } from 'src/app/_services/theme.service';
 })
 export class InterviewTrainingComponent implements OnInit {
 
-  constructor(private script: ScriptService, private service: ThemeService) {
+  constructor(private script: ScriptService) {
     this.script.load('JQuery','bootstrap', 'carousel', 'carouselSlick').then(data => {
       console.log('script loaded ', data);
   }).catch(error => console.log(error));
@@ -17,7 +16,6 @@ export class InterviewTrainingComponent implements OnInit {
 
 
   ngOnInit(): void {
-    this.service.selectTheme()
   }
 
 }

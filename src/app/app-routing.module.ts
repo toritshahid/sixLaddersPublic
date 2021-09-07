@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
-  { path: 'askUsAnything', loadChildren: () => import('./modules/ask-us-anything/ask-us-anything.module').then(m => m.AskUsAnythingModule) },
+  { path: 'askUsAnything', loadChildren: () => import('./modules/ask-us-anything/ask-us-anything.module').then(m => m.AskUsAnythingModule),  },
   { path: '', loadChildren: () => import('./modules/home/home.module').then(m => m.HomeModule) },
   { path: 'blogs', loadChildren: () => import('./modules/blog/blog.module').then(m => m.BlogModule) },
   { path: 'careerCoaching', loadChildren: () => import('./modules/career-coaching/career-coaching.module').then(m => m.CareerCoachingModule) },

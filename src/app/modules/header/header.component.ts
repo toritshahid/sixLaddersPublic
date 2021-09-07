@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { DarkModeService } from 'angular-dark-mode';
+import { Observable } from 'rxjs';
 import { ScriptService } from 'src/app/shared/scripts.service';
-import { ThemeService } from 'src/app/_services/theme.service';
 
 @Component({
   selector: 'app-header',
@@ -8,18 +9,18 @@ import { ThemeService } from 'src/app/_services/theme.service';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-
-  constructor(private script: ScriptService, private service: ThemeService) {
+  darkMode$: Observable<boolean> = this.darkModeService.darkMode$;
+  constructor(private script: ScriptService, private darkModeService: DarkModeService) {
     this.script.load('main').then(data => {
       console.log('script loaded ', data);
   }).catch(error => console.log(error));
   }
 
   ngOnInit(): void {
-    this.service.selectTheme()
   }
-  selectTheme(){
-    this.service.selectTheme()
+  onToggle(): void {
+    this.darkModeService.toggle();
   }
+
 
 }

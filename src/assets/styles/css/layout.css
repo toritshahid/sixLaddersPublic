@@ -97,11 +97,6 @@ body{
   color: black;
 	overflow-x: hidden;
 }
-.dark-mode {
-  background-color: black;
-  color: white;
-}
-
 
 p{
 	padding: 0px;
