@@ -1,5 +1,4 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
-import { DarkModeService } from 'angular-dark-mode';
 import { Observable } from 'rxjs';
 import { ScriptService } from 'src/app/shared/scripts.service';
 
@@ -9,8 +8,7 @@ import { ScriptService } from 'src/app/shared/scripts.service';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  darkMode$: Observable<boolean> = this.darkModeService.darkMode$;
-  constructor(private script: ScriptService, private darkModeService: DarkModeService) {
+  constructor(private script: ScriptService, ) {
     this.script.load('main').then(data => {
       console.log('script loaded ', data);
   }).catch(error => console.log(error));
@@ -18,9 +16,7 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  onToggle(): void {
-    this.darkModeService.toggle();
-  }
+
 
 
 }

@@ -15,8 +15,9 @@ const routes: Routes = [
   { path: 'resumeLinkedinReview', loadChildren: () => import('./modules/career-coaching/resume-linkedin-review/resume-linkedin-review.module').then(m => m.ResumeLinkedinREviewModule) },
   { path: 'supportSystem', loadChildren: () => import('./modules/career-coaching/support-system/support-system.module').then(m => m.SupportSystemModule) },
   { path: 'signupCandidate', loadChildren: () => import('./modules/signup-candidate/signup-candidate.module').then(m => m.SignupCandidateModule) },
-  { path: 'dashboard', loadChildren: () => import('./modules/dashboard/dashboard.module').then(m => m.DashboardModule) },
   { path: 'careerLadder', loadChildren: () => import('./modules/career-coaching/career-ladder/career-ladder.module').then(m => m.CareerLadderModule) },
+  { path: 'editProfile', loadChildren: () => import('./modules/dasboard/editprofile/editprofile.module').then(m => m.EditprofileModule) },
+  { path: 'signinCandidate', loadChildren: () => import('./modules/signin-candidate/signin-candidate.module').then(m => m.SigninCandidateModule) },
 ];
 
 @NgModule({

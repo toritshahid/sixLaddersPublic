@@ -7,6 +7,7 @@ import { HomeModule } from './modules/home/home.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { HeaderModule } from './modules/header/header.module';
+import { FooterModule } from './modules/footer/footer.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,6 +19,7 @@ import { HeaderModule } from './modules/header/header.module';
     HomeModule,
     BrowserAnimationsModule,
     HeaderModule,
+    FooterModule
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [

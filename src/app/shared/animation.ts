@@ -41,7 +41,7 @@ export const slideInOutAnimation =
             right: 0,
 
             // transition the background opacity to 0.8 to fade it in
-            backgroundColor: 'rgba(0, 0, 0, 0.8)'
+            backgroundColor: 'rgba(255, 255, 255)'
         }))
     ]),
 
@@ -51,9 +51,7 @@ export const slideInOutAnimation =
         animate('.5s ease-in-out', style({
             // transition the right position to -400% which slides the content out of view
             right: '-400%',
-
-            // transition the background opacity to 0 to fade it out
-            backgroundColor: 'rgba(0, 0, 0, 0)'
+            backgroundColor: 'rgba(0, 0, 0)'
         }))
     ])
 ]);

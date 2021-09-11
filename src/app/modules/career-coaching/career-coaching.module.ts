@@ -14,8 +14,6 @@ import { ScriptService } from 'src/app/shared/scripts.service';
   imports: [
     CommonModule,
     CareerCoachingRoutingModule,
-    HeaderModule,
-    FooterModule
   ],
   providers: [ScriptService],
 })

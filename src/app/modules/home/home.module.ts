@@ -14,8 +14,6 @@ import { ScriptService } from 'src/app/shared/scripts.service';
   imports: [
     CommonModule,
     HomeRoutingModule,
-    HeaderModule,
-    FooterModule
 
   ],
   exports: [
