@@ -18,6 +18,7 @@ const routes: Routes = [
   { path: 'careerLadder', loadChildren: () => import('./modules/career-coaching/career-ladder/career-ladder.module').then(m => m.CareerLadderModule) },
   { path: 'editProfile', loadChildren: () => import('./modules/dasboard/editprofile/editprofile.module').then(m => m.EditprofileModule) },
   { path: 'signinCandidate', loadChildren: () => import('./modules/signin-candidate/signin-candidate.module').then(m => m.SigninCandidateModule) },
+  { path: 'myAccount', loadChildren: () => import('./modules/dasboard/my-account/my-account.module').then(m => m.MyAccountModule) },
 ];
 
 @NgModule({

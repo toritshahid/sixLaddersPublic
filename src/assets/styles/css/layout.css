@@ -191,6 +191,12 @@ input[type="text"], input[type="password"], textarea, select {
 	/*max-width: 1200px;*/
 	margin: 0px auto;
 }
+.myacc-content-container{
+	display: block;
+	width: 60%;
+	/*max-width: 1200px;*/
+	margin-left: 30%;
+}
 
 .content-container-carousel{
 	display: block;

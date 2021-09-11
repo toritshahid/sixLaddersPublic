@@ -230,8 +230,14 @@
 	display: block;
 	width: 100%;
 	min-height: 40px;
-	background-color: rgb(246, 248, 247,0.4);
+	background-color: rgba(246, 247, 248, 0.4);
 	padding-bottom:50px ;
+}
+.my-account-block-four{
+	display: block;
+	width: 100%;
+	background-color: rgb(21, 100, 82);
+	padding-bottom:40px ;
 }
 
 .hmp-two-header{
