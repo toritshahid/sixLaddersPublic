@@ -1,12 +1,12 @@
 .left-side-acc-b-t{
-	width: 30%;
+	width: 33%;
 	border-radius: 10px;
 	background-color: rgba(255, 255, 255, 0.3);
 	min-height: 40px;
 	padding-bottom: 25px;
 }
 .right-side-acc-b-t{
-	width: 60%;
+	width: 63%;
 	border-radius: 10px;
 	background-color: white;
 	min-height: 40px;
@@ -29,4 +29,21 @@
 	min-height: 20px;
 	padding: 9% 0px;
 }
+.profile-title-acc-c{
+	font-family: 'basier_circlebold';
+	font-size: 16px;
+	color: var(--slate);
+  margin-bottom: 0;
+	padding-left: 0px;
+}
+
+.lft-acc-block-info-text{
+	display: inline;
+	font-size: 14px;
+  padding: 0;
+  margin: 0;
+	font-family: 'basier_circleregular';
+	color: var(--battleship-grey);
+}
+
 
