@@ -19,6 +19,7 @@ const routes: Routes = [
   { path: 'editProfile', loadChildren: () => import('./modules/dasboard/editprofile/editprofile.module').then(m => m.EditprofileModule) },
   { path: 'signinCandidate', loadChildren: () => import('./modules/signin-candidate/signin-candidate.module').then(m => m.SigninCandidateModule) },
   { path: 'myAccount', loadChildren: () => import('./modules/dasboard/my-account/my-account.module').then(m => m.MyAccountModule) },
+  { path: 'dashboardCalender', loadChildren: () => import('./modules/dashboard-calender/dashboard-calender.module').then(m => m.DashboardCalenderModule) },
 ];
 
 @NgModule({
