@@ -8,13 +8,34 @@
         <!--ITEM-->
         <div class="left-acc-itemf-ftp">
           <div class="left-acc-itemf-ftp-flex">
-
             <div class="left-itemf-ftp-flex-child">
-              <img style="border-radius: 50%;"  width="50" height="60" src="assets/img/shahid.jpg">
+
+              <img style="border-radius: 50%;"  width="50" height="50" src="assets/img/shahid.jpg">
+              <p class="lft-acc-block-info-text" style="margin-left: 150px;"><a href="/editProfile"><i class="fa fa-edit"></i></a> </p>
               <p class="profile-title-acc-c">Syed Shahid</p>
+
               <p class="lft-acc-block-info-text">Tral,192123</p>
               <br>
-              <p class="lft-acc-block-info-text">Most Recent Job <span class="profile-title-acc-c">Oracle</span></p>
+
+              <p class="lft-acc-block-info-text">Most Recent Job <span style="margin-left: 20px;"><b>Oracle</b></span></p>
+            <br>
+              <p class="lft-acc-block-info-text">Last Qualification <span style="margin-left: 20px;"><b>B.Tech</b></span></p>
+            <br>
+              <p class="lft-acc-block-info-text">Work Experience <span style="margin-left: 20px;"><b>5.5 Years</b></span></p>
+              <br>
+              <p class="lft-acc-block-info-text"><i class="fa fa-envelope-square"></i> <span style="margin-left: 5px;">syed.shahid.shabir@gmail.com</span></p>
+              <br>
+              <p class="lft-acc-block-info-text"><i class="fa fa-phone-square"></i> <span style="margin-left: 5px;">+917006921373</span></p>
+
+              <div class="car-co-bt-button-cont" style="margin-top: 10px;">Upload Your Resume</div>
+            </div>
+          </div>
+        </div>
+        <div class="left-acc-itemf-ftp-dark">
+          <div class="left-acc-itemf-ftp-flex">
+
+            <div class="left-itemf-ftp-flex-child">
+              <p class="job-title-acc-c">Jobs Applied(11)</p>
             </div>
           </div>
         </div>
@@ -48,25 +69,90 @@
         <!--ITEM-->
         <div class="lft-ftp-block-info">
           <div class="lft-ftp-conent-container">
-            <p class="lft-ftp-block-info-header">Overview</p>
-            <p class="lft-ftp-block-info-text">Deloitte LLP provides professional services.
-              The Company focuses on internal audit, enterprise, financial advisory, financial
-              accounting, risk management, human capital, strategy operations, and technology
-              consulting. Deloitte serves automotive, health care providers, insurance, real
-              estate, state government, telecom, and technology industries industries.
-            </p>
+            <div class="flex-car-co-block-tw-container">
+              <div class="center-car-co-b-t">
+                 <p class="header-acc-co-b-t">Sales Manager</p>
+                 <p class="profile-title-acc-c">Torit Innovations<span class="lft-acc-block-info-text">Tral,192123</span></p>
+                 <br>
+                 <p class="description-car-co-b-t" [ngClass]="{'limitTextHeight': isReadMore}">Build the perfect LinkedIn profile and resume to help you get hired faster by the right employer you get hired faster by the right employer
+                </p>
+                <a (click)="showText()" class="readMore">
+                  {{ isReadMore ? 'Read More...': 'Read Less...' }}</a>
+              </div>
+
+              <div class="right-acc-co-b-t">
+                <p class="lft-acc-block-info-text" style="margin-left: 130px;">Applied 12 day(s) ago</p>
+                 <a href="/resumeLinkedinReview" class="no-style-link">
+                    <div class="acc-co-bt-button-cont">Cancel Application</div>
+                 </a>
+              </div>
+           </div>
           </div>
         </div>
         <!--ITEM-->
         <div class="lft-ftp-block-info">
           <div class="lft-ftp-conent-container">
-            <p class="lft-ftp-block-info-header">Work Culture</p>
-            <p class="lft-ftp-block-info-text">Ut ligula elit, venenatis vitae sapien vitae, dapibus gravida velit.
-              Donec id tortor elit. Curabitur consequat enim in mi pretium, eu ultrices metus tristique. Suspendisse
-              et eros id risus semper lacinia ac nec urna. Ut ligula elit, venenatis vitae sapien vitae, dapibus
-              gravida velit. Donec id tortor elit. Curabitur consequat enim in mi pretium, eu ultrices metus
-              tristique.
-            </p>
+            <div class="flex-car-co-block-tw-container">
+              <div class="center-car-co-b-t">
+                 <p class="header-acc-co-b-t">Sales Manager</p>
+                 <p class="profile-title-acc-c">Torit Innovations<span class="lft-acc-block-info-text">Tral,192123</span></p>
+                 <br>
+                 <p class="description-car-co-b-t">Build the perfect LinkedIn profile and resume to help you get hired faster by the right employer</p>
+                 <a (click)="showText()" class="readMore">
+                  {{ isReadMore ? 'Read More...': 'Read Less...' }}</a>
+                </div>
+
+              <div class="right-acc-co-b-t">
+                <p class="lft-acc-block-info-text" style="margin-left: 130px;">Applied 12 day(s) ago</p>
+                 <a href="/resumeLinkedinReview" class="no-style-link">
+                    <div class="acc-co-bt-button-cont">Cancel Application</div>
+                 </a>
+              </div>
+           </div>
+          </div>
+        </div>
+        <!--Item-->
+        <div class="lft-ftp-block-info">
+          <div class="lft-ftp-conent-container">
+            <div class="flex-car-co-block-tw-container">
+              <div class="center-car-co-b-t">
+                 <p class="header-acc-co-b-t">Sales Manager</p>
+                 <p class="profile-title-acc-c">Torit Innovations<span class="lft-acc-block-info-text">Tral,192123</span></p>
+                 <br>
+
+                 <p class="description-car-co-b-t">Build the perfect LinkedIn profile and resume to help you get hired faster by the right employer</p>
+                 <a (click)="showText()" class="readMore">
+                  {{ isReadMore ? 'Read More...': 'Read Less...' }}</a>
+                </div>
+
+              <div class="right-acc-co-b-t">
+                <p class="lft-acc-block-info-text" style="margin-left: 130px;">Applied 12 day(s) ago</p>
+                 <a href="/resumeLinkedinReview" class="no-style-link">
+                    <div class="acc-co-bt-button-cont">Cancel Application</div>
+                 </a>
+              </div>
+           </div>
+          </div>
+        </div>
+        <div class="lft-ftp-block-info">
+          <div class="lft-ftp-conent-container">
+            <div class="flex-car-co-block-tw-container">
+              <div class="center-car-co-b-t">
+                 <p class="header-acc-co-b-t">Sales Manager</p>
+                 <p class="profile-title-acc-c">Torit Innovations<span class="lft-acc-block-info-text">Tral,192123</span></p>
+                 <br>
+                 <p class="description-car-co-b-t">Build the perfect LinkedIn profile and resume to help you get hired faster by the right employer</p>
+                 <a (click)="showText()" class="readMore">
+                  {{ isReadMore ? 'Read More...': 'Read Less...' }}</a>
+                </div>
+
+              <div class="right-acc-co-b-t">
+                <p class="lft-acc-block-info-text" style="margin-left: 130px;">Applied 12 day(s) ago</p>
+                 <a href="/resumeLinkedinReview" class="no-style-link">
+                    <div class="acc-co-bt-button-cont">Cancel Application</div>
+                 </a>
+              </div>
+           </div>
           </div>
         </div>
       </div>

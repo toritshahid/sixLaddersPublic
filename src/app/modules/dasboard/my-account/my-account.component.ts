@@ -13,6 +13,11 @@ export class MyAccountComponent implements OnInit {
       console.log('script loaded ', data);
   }).catch(error => console.log(error));
   }
+  isReadMore = true
+
+  showText() {
+     this.isReadMore = !this.isReadMore
+  }
 
   ngOnInit(): void {
   }
